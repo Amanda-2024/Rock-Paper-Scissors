@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: #023047;
+}
+
+h1{
+    text-align: center;
+    color: #ffafcc;
+    font-family: 'Lucida Sans';
+}
+
+.choices{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    text-align: center;
+    gap: 100px;
+}
+
+.choice:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.scoreboard{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 50px;
+    justify-content: center;
+    color: #ffafcc;
+    font-family: Tahoma;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.message_cont{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg{
+    border: 1px solid white;
+    background-color: white;
+    font-size: 25px;
+    font-family: Tahoma;
+    padding: 3px;
+    border-radius: 15px;
+    width: 300px;
+}
